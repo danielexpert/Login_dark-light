@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Dark/Light Mode</title>
+    <!-- Icones font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Gloogle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon" ></i>
+                
+            </div>
+
+            <div id="social_media">
+                <a href="https://www.linkedin.com/in/daniel-alc%C3%A2ntara-3383aa24a/">
+                    <img src="assets/imgs/icons8-linkedin-circundado-30.png" alt="logo linkedin">
+                </a>
+
+                <a href="#">
+                    <img src="assets/imgs/icons8-google-logo-24.png" alt="logo facebook">
+                </a>
+
+                <a href="#">
+                    <img src="assets/imgs/icons8-github-94.png" alt="logo icons8-github-94">
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+            </div>
+                <!-- Email -->
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                <!-- Password -->
+                <div class="input-box">
+                    <label for="password">
+                        Password
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+
+                    <div id="forgot_password"></div>
+                    <a href="#">
+                        Forgot your password?
+                    </a>
+                </div>
+            </div>
+
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
